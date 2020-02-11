@@ -18,36 +18,38 @@ function draw() {
 
 // left eye
 	fill('#002233')
-	ellipse(230, y, 20, 40);
+	ellipse(240, y, 20, 40);
 	noStroke()
 
 // mouth
 	arc(250, 200, 120, 40, 0, HALF_PI * 1.2);
 	arc(250, 240, 10, 80, 180, HALF_PI * 1.2);
 
+var a = 10;
+var b = 15;
 
 	//backround circles
 	fill('#0088cc')
-	ellipse(100,100, 50, 10);
+	ellipse(100,100, 50, a);
 
-	ellipse(120,108, 60, 10);
+	ellipse(120,108, 60, a);
 
-	ellipse(220,330, 60, 15);
+	ellipse(220,330, 60, b);
 
-	ellipse(30,300, 60, 15);
+	ellipse(30,300, 60, b);
 
-	ellipse(400,30, 60, 10);
+	ellipse(400,30, 60, a);
 
-	ellipse(60,5, 60, 10);
+	ellipse(60,5, 60, a);
 
-	ellipse(420,38, 60, 10);
+	ellipse(420,38, 60, a);
 
-	ellipse(370,58, 60, 10) 
+	ellipse(370,58, 60, a); 
 
-	ellipse(400,30, 60, 10)
+	ellipse(500,270, 60, a);
 
-	ellipse(400,30, 60, 10)
+	ellipse(400,30, 60, a);
 
-	ellipse(400,30, 60, 10)
+	ellipse(400,30, 60, a);
 
 }
