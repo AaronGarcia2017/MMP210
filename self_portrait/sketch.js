@@ -28,7 +28,7 @@ function draw() {
 var a = 10;
 var b = 15;
 
-	//backround circles
+	//backround circles (blue)
 	fill('#0088cc')
 	ellipse(100,100, 50, a);
 
@@ -48,8 +48,45 @@ var b = 15;
 
 	ellipse(500,270, 60, a);
 
-	ellipse(400,30, 60, a);
+	ellipse(550,30, 60, a);
 
-	ellipse(400,30, 60, a);
+	ellipse(440,150, 90, b);
+
+	ellipse(420,190, 60, a);
+
+	ellipse(195,238, 60, a);
+
+	ellipse(90,200, 60, a);
+
+	ellipse(24,38, 60, a);
+
+	ellipse(0,169, 60, b);
+
+	ellipse(250,15, 60, a);
+
+	ellipse(600,180, 60, b);
+
+	ellipse(510,340, 70, b);
+
+	ellipse(380,290, 60, a);
+
+	//Background circles (red)
+	fill("red")
+
+	ellipse(134,46, 60, a);
+
+	ellipse(45,235, 70, 20);
+
+	ellipse(480,333, 60, b);
+
+	ellipse(280,300, 60, a);
+
+	ellipse(540,118, 60, a);
+
+	ellipse(460,195, 60, b);
+
+	ellipse(130,158, 60, a);
+
+	ellipse(20,87, 60, a);
 
 }
