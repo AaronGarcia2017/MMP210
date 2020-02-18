@@ -1,3 +1,7 @@
+// global scope
+var eyeheight = 145;
+var a = 10;
+
 function setup() {
 	createCanvas(640, 360);
 }
@@ -6,19 +10,19 @@ function draw() {
 	background('#ffff4d')
 	//head
 	fill('#e6ffff')
-	stroke(10);
+	stroke(a);
 	ellipse(280, 150, 200,);
 
-	var y = 145;
+	
 
 // right eye
 	fill('#002233')
-	ellipse(305, y, 10, 10);
+	ellipse(305, eyeheight, a, a);
 	noStroke()
 
 // left eye
 	fill('#002233')
-	ellipse(250, y, 10, 10);
+	ellipse(250, eyeheight, a, a);
 	noStroke()
 
 // mouth
@@ -33,68 +37,68 @@ ellipse(276, 196, 14);
 
 
 
-var a = 10;
-var b = 15;
+var small = 10;
+var big = 15;
 
-	//backround circles (blue)
+	//backround clouds (blue)
 	fill('#0088cc')
-	ellipse(100,100, 50, a);
+	ellipse(100,100, 50, small);
 
-	ellipse(120,108, 60, a);
+	ellipse(120,108, 60, small);
 
-	ellipse(220,330, 60, b);
+	ellipse(220,330, 60, big);
 
-	ellipse(30,300, 60, b);
+	ellipse(30,300, 60, big);
 
-	ellipse(400,30, 60, a);
+	ellipse(400,30, 60, small);
 
-	ellipse(60,5, 60, a);
+	ellipse(60,5, 60, small);
 
-	ellipse(420,38, 60, a);
+	ellipse(420,38, 60, small);
 
-	ellipse(370,58, 60, a); 
+	ellipse(370,58, 60, small); 
 
-	ellipse(500,270, 60, a);
+	ellipse(500,270, 60, small);
 
-	ellipse(550,30, 60, a);
+	ellipse(550,30, 60, small);
 
-	ellipse(440,150, 90, b);
+	ellipse(440,150, 90, big);
 
-	ellipse(420,190, 60, a);
+	ellipse(420,190, 60, small);
 
-	ellipse(195,238, 60, a);
+	ellipse(195,238, 60, small);
 
-	ellipse(90,200, 60, a);
+	ellipse(90,200, 60, small);
 
-	ellipse(24,38, 60, a);
+	ellipse(24,38, 60, small);
 
-	ellipse(0,169, 60, b);
+	ellipse(0,169, 60, small);
 
-	ellipse(250,15, 60, a);
+	ellipse(250,15, 60, small);
 
-	ellipse(600,180, 60, b);
+	ellipse(600,180, 60, big);
 
-	ellipse(510,340, 70, b);
+	ellipse(510,340, 70, big);
 
-	ellipse(380,290, 60, a);
+	ellipse(380,290, 60, small);
 
-	//Background circles (red)
+	//Background clouds (red)
 	fill("red")
 
-	ellipse(134,46, 60, a);
+	ellipse(134,46, 60, small);
 
 	ellipse(45,235, 70, 20);
 
-	ellipse(480,333, 60, b);
+	ellipse(480,333, 60, big);
 
-	ellipse(280,300, 60, a);
+	ellipse(280,300, 60, small);
 
-	ellipse(540,118, 60, a);
+	ellipse(540,118, 60, small);
 
-	ellipse(460,195, 60, b);
+	ellipse(460,195, 60, big);
 
-	ellipse(130,158, 60, a);
+	ellipse(130,158, 60, small);
 
-	ellipse(20,87, 60, a);
+	ellipse(20,87, 60, small);
 
 }
