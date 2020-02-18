@@ -9,21 +9,29 @@ function draw() {
 	stroke(10);
 	ellipse(280, 150, 200,);
 
-	var y = 119;
+	var y = 145;
 
 // right eye
 	fill('#002233')
-	ellipse(320, y, 20, 40);
+	ellipse(305, y, 10, 10);
 	noStroke()
 
 // left eye
 	fill('#002233')
-	ellipse(240, y, 20, 40);
+	ellipse(250, y, 10, 10);
 	noStroke()
 
 // mouth
-	arc(250, 200, 120, 40, 0, HALF_PI * 1.2);
-	arc(250, 240, 10, 80, 180, HALF_PI * 1.2);
+arc(279, 180, 80, 50, 6.5, 3, PI + QUARTER_PI);
+
+//mouth's eye
+fill("white")
+ellipse(276, 196, 18);
+
+fill('#301E5F')
+ellipse(276, 196, 14);
+
+
 
 var a = 10;
 var b = 15;
