@@ -8,6 +8,24 @@ function setup() {
 
 function draw() {
 	background('#ffff4d')
+
+	//Body spikes
+	fill('#301E5F')
+	stroke(a)
+ellipse(280, 90, 90);
+	ellipse(240, 100, 90);
+	ellipse(220, 130, 90);
+	ellipse(215, 165, 90);
+	ellipse(240, 200, 90);
+	ellipse(280, 210, 90);
+	ellipse(315, 200, 90);
+	ellipse(340, 170, 90);
+	ellipse(340, 130, 90);
+ellipse(315, 100, 90);
+
+
+
+
 	//head
 	fill('#e6ffff')
 	stroke(a);
