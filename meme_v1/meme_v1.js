@@ -6,18 +6,16 @@ background('gray');
 	textSize(100);
 	fill('white');
 	stroke('black');
-	strokeWeight(20);
+	strokeWeight(5);
 	textStyle(ITALIC);
 	textAlign(LEFT, CENTER);
-	text('hello world',0, 250);
+	text('THIS WAY',0, 50);
+textSize(60);
+textAlign(CENTER);
+	text('FOR YOUR VIBE CHECK, SIR.', 0, 280, 500, 300)
 
 	textSize(20)
 	strokeWeight(5);
 	textStyle(NORMAL);
 	textAlign(CENTER, TOP);
-
-	var welcome = 'welcome to my website';
-	var end = map(frameCount, 0, 200, 0, welcome.length);
-	text( welcome.substring(0,end), 250, 350);
-
 }
