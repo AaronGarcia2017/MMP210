@@ -1,6 +1,7 @@
 // global scope
 var eyeheight = 145;
 var a = 10;
+var eye = 5;
 
 function setup() {
 	createCanvas(640, 360);
@@ -47,11 +48,14 @@ ellipse(315, 100, 90);
 arc(279, 180, 80, 50, 6.5, 3, PI + QUARTER_PI);
 
 //mouth's eye
+ var offset = map(mouseX, 0, width, -20, 20);
+  eye++;
+
 fill("white")
-ellipse(276, 196, 18);
+ellipse(280 + offset, 195, min(eye, 18));
 
 fill('#301E5F')
-ellipse(276, 196, 14);
+ellipse(280 + offset, 195, min(eye, 14));
 
 
 
