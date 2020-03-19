@@ -20,16 +20,16 @@ function draw() {
 	}
 	  
 	tint(c);
-	frameRate(25);
+	frameRate(60);
 
-
+//Dvd logo
 	image(dvd, x, y);
 	x += speed;
-	if (x > width || x < 0) {
+	if (x > width || x < 1) {
 		speed *= -1;
 y += speed;
 	if (y > height || y < 0) {
-		speed *= -1;
+		speed *= -5;
 	}
 
 	}

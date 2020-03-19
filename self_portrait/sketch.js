@@ -52,7 +52,8 @@ arc(279, 180, 80, 50, 6.5, 3, PI + QUARTER_PI);
   eye++;
 
 fill("white")
-ellipse(280 + offset, 195, min(eye, 18));
+ellipse(280 + offset, 195
+	, min(eye, 18));
 
 fill('#301E5F')
 ellipse(280 + offset, 195, min(eye, 14));
