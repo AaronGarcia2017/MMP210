@@ -1,19 +1,23 @@
-var x=50;
-var y=50;
-var r = 255;
-var g = 0;
-var b = 255;
-
 function setup() {
-  createCanvas(600, 400);
-  background("black");
+  createCanvas(600, 600);
+ 
 }
 
 
 function draw() {
-  x=random()*width;
-  y=random()*height;
-  fill(map(y,0,height,255-r,r),map(y,0,height,255-g,g),map(x,0,width,255-b,b));
-  noStroke();
-  circle(x,y,50,50);
-}
+ background(220);
+  background("black");
+
+
+ for (let x = 0; x <= width; x += 50) {
+  for (let y=0; y <= height; y += 100){
+    translate(width/2, height/2);
+  var r = frameCount / 1000 * PI;
+  rotate(r);
+      square(10 + 10, 10 + 10, 100);
+
+      fill("yellow");
+
+  }
+  }
+ }
