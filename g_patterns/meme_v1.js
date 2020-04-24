@@ -14,8 +14,7 @@ function draw() {
     translate(width/2, height/2);
   var r = frameCount / 1000 * PI;
   rotate(r);
-      square(10 + 10, 10 + 10, 100);
-
+      square(10 + random(10), 10 + random(10), 100);
       fill("yellow");
 
   }
